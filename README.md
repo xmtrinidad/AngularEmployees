@@ -6,4 +6,5 @@ The mock up can be found at this link:
 https://www.uplabs.com/posts/dashboard-design-employee-list
 
 My current version of the mock up:
+https://xmtrinidad.github.io/AngularEmployees/
 
