@@ -1,0 +1,47 @@
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav-container {
+    flex: 1;
+}
+
+.nav {
+    background: #fff;
+}
+.nav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    .nav-item--sidenav-btn {
+        flex: 1;
+    }
+    .nav-item--user {
+        img {
+            border-radius: 100%;
+            width: 35px;
+        }
+        span {
+            font-size: .80rem;
+        }
+    }
+    .nav-item--menu-btn {
+        margin-right: 7px;
+    }
+}
+
+main {
+    background: #F5F6FA;
+    min-height: 700px;
+}
+
+@media (min-width: 992px) {
+    .nav-item--sidenav-btn {
+        visibility: hidden;
+    }
+}
+

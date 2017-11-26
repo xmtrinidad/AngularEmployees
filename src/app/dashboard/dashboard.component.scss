@@ -1,0 +1,25 @@
+.dashboard {
+    margin: 15px 0;
+}
+
+.add-employee {
+    text-align: center;
+    button {
+        height: 45px;
+        font-weight: bold;
+        font-family: 'Spectral SC', serif !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .dashboard {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 10px;
+        align-items: center;
+    }
+}
+
+
+
+

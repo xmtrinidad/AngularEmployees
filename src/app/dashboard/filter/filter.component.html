@@ -1,0 +1,10 @@
+<div class="filter">
+    <span>Filter By</span>
+    <mat-form-field>
+      <mat-select (selectionChange)="selected()" [(ngModel)]="selectedTitle" name="titles" placeholder="Choose Employee Type">
+        <mat-option *ngFor="let filterItem of filterItems" [value]="filterItem.value">
+          {{ filterItem.viewValue }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>

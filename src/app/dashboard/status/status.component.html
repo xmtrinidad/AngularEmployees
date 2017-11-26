@@ -1,0 +1,4 @@
+<ul class="stat-list">
+    <li (click)="statusClicked(stat)" class="stat-list__stat" *ngFor="let stat of status" [value]="stat.value" [ngClass]="{'mat-elevation-z2': stat.checked}"
+      [ngStyle]="stat.checked && {'backgroundColor': '#fff'}">{{stat.title}}</li>
+  </ul>

@@ -1,0 +1,22 @@
+footer {
+    box-shadow: 2px 2px 12px -1px #000;
+    margin-top: 20px;
+    text-align: center;
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    .credit {
+        padding: 7px;
+        .logo {
+            width: 45px;
+        }
+    }
+    
+    .author {
+        padding: 3px;
+        a {
+            color: inherit;
+        }
+    }
+}

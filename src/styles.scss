@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import './material-theme';
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+@import '../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Spectral SC', serif !important;
+}
+
+button:focus {
+    outline: none;
+}

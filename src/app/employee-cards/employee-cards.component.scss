@@ -1,0 +1,57 @@
+.employees {
+  margin: 15px 0 30px 0;
+  display: grid;
+  grid-gap: 15px;
+}
+
+.employee-card {
+  background: #fff;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  .employee-img img {
+    border-radius: 100%;
+  }
+  .employee-info {
+    margin: 10px 0;
+    .employee-name {
+      margin: 0;
+      padding: 0;
+	}
+	.employee-title {
+		color: rgb(134, 134, 134);
+	}
+  }
+  .employee-status-btn {
+    margin: 30px 0 15px 0;
+    button {
+      font-family: inherit;
+    }
+  }
+}
+
+.employee-menu-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: rgb(138, 138, 138);
+}
+
+@media (min-width: 576px) {
+  .employees {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .employees {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .employees {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

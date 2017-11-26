@@ -1,0 +1,13 @@
+<div class="sidenav">
+  <div class="sidenav__logo">
+    <img src="http://acmelogos.com/images/logo-2.svg" alt="acme logo">
+  </div>
+  <ul class="sidenav-list">
+    <li *ngFor="let sidenavItem of sidenavItems" class="sidenav-list__item">
+      <a mat-button href="#" class="sidenav-list__item--link">
+          <mat-icon>{{sidenavItem.icon}}</mat-icon>
+          <span>{{sidenavItem.title}}</span>
+      </a>
+    </li>
+  </ul>
+</div>
