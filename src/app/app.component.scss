@@ -1,10 +1,8 @@
 .app {
     display: flex;
     flex-direction: column;
-}
-
-.sidenav-container {
-    flex: 1;
+    justify-content: space-between;
+    min-height: 100%;
 }
 
 .nav {
@@ -36,8 +34,9 @@
 
 main {
     background: #F5F6FA;
-    min-height: 700px;
+    min-height: 740px;
 }
+
 
 @media (min-width: 992px) {
     .nav-item--sidenav-btn {
